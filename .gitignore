@@ -1,0 +1,74 @@
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# CAD temporary, backup, and lock files
+*.bak
+*.backup
+*.old
+*.tmp
+*.temp
+*.autosave
+*.lck
+*.lock
+~$*
+*.ipt.*.bak
+*.iam.*.bak
+*.idw.*.bak
+*.FCStd1
+*.FCBak
+
+# Common generated CAD/CAM and slicer output
+*.gcode
+*.bgcode
+*.gx
+*.nc
+*.tap
+*.sli
+*.slc
+
+# Firmware build products and tooling caches
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+out/
+dist/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.obj
+*.d
+
+# KiCad backups, caches, and machine-local files
+*-backups/
+_autosave-*
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+
+# Test and analysis scratch data
+*.log
+*.trace
+.cache/
+tmp/
+temp/
