@@ -6,7 +6,7 @@ This repository is owned under the **RoverX** GitHub account and uses **Roverics
 
 ## Status
 
-The project is in early prototype development. Historical work reported by the project owner includes:
+The project is in early prototype development. The repository now includes an imported Autodesk Inventor P0 assembly tree, selected mechanical exports, an electronics development log, and reconstructed reference firmware. Recorded work includes:
 
 - Autodesk Inventor models for a track link and sprocket;
 - a tracked-lane and bogie/chassis layout;
@@ -49,6 +49,7 @@ Build and document a **powered, instrumented single-track module**. At minimum, 
 ## Repository map
 
 - [`prototypes/p0/`](prototypes/p0/) — P0 mechanical, electronics, firmware, tests, and photos
+- [`docs/progress-report.md`](docs/progress-report.md) — permanent living progress report for electronics and mechanics
 - [`docs/architecture.md`](docs/architecture.md) — system boundaries and intended interfaces
 - [`docs/roadmap.md`](docs/roadmap.md) — evidence-based development sequence
 - [`docs/part-revisions.md`](docs/part-revisions.md) — part identity and revision rules
