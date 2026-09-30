@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParamWithValueList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <version>20080502</version>
+  <parameterTypes>
+    <ParamType>
+      <typeName>Inventor</typeName>
+      <typeCode>0</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>String</typeName>
+      <typeCode>1</typeCode>
+    </ParamType>
+    <ParamType>
+      <typeName>Boolean</typeName>
+      <typeCode>2</typeCode>
+    </ParamType>
+  </parameterTypes>
+  <parameters>
+    <ParamWithValue>
+      <name>CabinWidth</name>
+      <typeCode>mm</typeCode>
+      <value>190 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>CabinLength</name>
+      <typeCode>mm</typeCode>
+      <value>240 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>CabinChassis1Length</name>
+      <typeCode>mm</typeCode>
+      <value>150 mm</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+    <ParamWithValue>
+      <name>CabinChassis2Length</name>
+      <typeCode>mm</typeCode>
+      <value>CabinLength - CabinChassis1Length</value>
+      <comment />
+      <isKey>false</isKey>
+    </ParamWithValue>
+  </parameters>
+</ParamWithValueList>
