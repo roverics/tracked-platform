@@ -72,3 +72,21 @@ fp-info-cache
 .cache/
 tmp/
 temp/
+MIRRS
+
+# P0 Inventor scratch and historical files
+/prototypes/p0/mechanical/cad/Motor/test/
+/prototypes/p0/mechanical/cad/**/OldVersions/
+
+# Derived mesh/interchange files do not belong in the editable CAD tree.
+# Deliberate STL exports belong under mechanical/exports instead.
+/prototypes/p0/mechanical/cad/**/*.stl
+/prototypes/p0/mechanical/cad/**/**/*.obj
+/prototypes/p0/mechanical/cad/**/**/*.mtl
+/prototypes/p0/mechanical/cad/**/**/*.glb
+Failed Models
+
+*.3mf
+*.zip
+
+
