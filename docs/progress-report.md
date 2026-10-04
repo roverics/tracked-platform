@@ -3,7 +3,7 @@
 - **Project:** Roverics tracked rover platform
 - **Prototype:** P0 reduced-scale engineering prototype
 - **Report status:** Living permanent record
-- **Current through:** 1 October 2026
+- **Current through:** 4 October 2026 (media review; earlier test chronology retained)
 - **Canonical summary:** This document
 
 This report records the development of P0 in two parts: electronics and mechanics. It is intended to remain accurate as the project progresses. Detailed source records remain in the electronics, CAD, firmware, test, and export directories linked below.
@@ -34,6 +34,10 @@ When work progresses:
 5. Create a platform release tag only when the release gate in [versioning.md](versioning.md) is satisfied.
 
 ## Overall position
+
+### Media update — 4 October 2026
+
+Newly reviewed photographs show a physical partial lane assembly with printed structure and a belt drive, a wired electronics bench, and a screen displaying `ROVER 14.3V`. The bogie and full-rover images are CAD renders. Capture dates and configuration revisions remain unconfirmed. Displayed voltage is not a calibrated measurement claim. These photos establish additional physical build state, but no powered-track, complete-rover or loaded test. See [the media review](evidence-media-review-2026-10-04.md) for source filenames and boundaries. The historical inventories below describe the 1 October snapshot unless explicitly updated.
 
 P0 has substantial mechanical CAD and a physically demonstrated one-motor electronics/control chain. The electronics work has progressed from direct motor actuation through standard-NRF wireless joystick control. The mechanical work includes an Inventor full-vehicle assembly and detailed track-lane, running-gear, transmission, suspension, cabin, and track-link models.
 
